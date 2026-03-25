@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "69c430837ab91e87801dacf0"
+  },
+  "Name": "Anjaneya",
+  "Phone": "7259306180",
+  "EMail": "anjaneya@gmail.com"
+},
+{
+  "_id": {
+    "$oid": "69c430997ab91e87801dacf1"
+  },
+  "Name": "Malli",
+  "Phone": "8904021304",
+  "EMail": "karimallikarjun@gmail.com"
+},
+{
+  "_id": {
+    "$oid": "69c430997ab91e87801dacf2"
+  },
+  "Name": "Nandu",
+  "Phone": "8123797004",
+  "EMail": "NanNandu@gmail.com"
+}]
