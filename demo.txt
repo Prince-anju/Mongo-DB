@@ -1,0 +1,24 @@
+db.createCollection("Phone_Bk")
+{ ok: 1 }
+db.Phone_Bk.insertOne({Name:"Anjaneya",Phone:"7259306180",EMail:"anjaneya@gmail.com"})
+{
+  acknowledged: true,
+  insertedId: ObjectId('69c42c737ab91e87801dacec')
+}
+db.Phone_Bk.insertMany([{Name:"Malli",Phone:"8904021304",EMail:"karimallikarjun@gmail.com"},{Name:"Nandu",Phone:"8123797004",EMail:"NanNandu@gmail.com"})
+SyntaxError: Unexpected token, expected "," (1:152)
+
+> 1 | db.Phone_Bk.insertMany([{Name:"Malli",Phone:"8904021304",EMail:"karimallikarjun@gmail.com"},{Name:"Nandu",Phone:"8123797004",EMail:"NanNandu@gmail.com"})
+    |                                                                                                                                                         ^
+db.Phone_Bk.insertMany([{Name:"Malli",Phone:"8904021304",EMail:"karimallikarjun@gmail.com"},{Name:"Nandu",Phone:"8123797004",EMail:"NanNandu@gmail.com"}])
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('69c42d4e7ab91e87801daced'),
+    '1': ObjectId('69c42d4e7ab91e87801dacee')
+  }
+}
+show collections
+Phone_Bk
+sdc
+db.Phone_Bk.find()
